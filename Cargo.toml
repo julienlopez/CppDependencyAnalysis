@@ -1,0 +1,12 @@
+[package]
+name = "cpp_dependency_analysis"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# llvm-ir-analysis = { version = "0.3.2", features = ["llvm-15"] }
+futures-util = "0.3.28"
+redis = "0.16.0"
+redisgraph = "0.5.0"
